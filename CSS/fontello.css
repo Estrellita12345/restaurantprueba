@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?38044653');
+    src: url('../font/fontello.eot?38044653#iefix') format('embedded-opentype'),
+         url('../font/fontello.woff2?38044653') format('woff2'),
+         url('../font/fontello.woff?38044653') format('woff'),
+         url('../font/fontello.ttf?38044653') format('truetype'),
+         url('../font/fontello.svg?38044653#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?38044653#fontello') format('svg');
+    }
+  }
+  */
+   
+   [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak-as: never;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+   
+  .icon-user:before { content: '\e800'; } /* '' */
+  .icon-comment:before { content: '\e801'; } /* '' */
+  .icon-phone:before { content: '\e802'; } /* '' */
+  .icon-basket:before { content: '\e803'; } /* '' */
+  .icon-flash:before { content: '\e804'; } /* '' */
+  .icon-mail:before { content: '\e805'; } /* '' */
+  .icon-moon-inv:before { content: '\e806'; } /* '' */
+  .icon-at:before { content: '\e807'; } /* '' */
+  .icon-phone-squared:before { content: '\f098'; } /* '' */
+  .icon-twitter:before { content: '\f099'; } /* '' */
+  .icon-mail-alt:before { content: '\f0e0'; } /* '' */
+  .icon-gamepad:before { content: '\f11b'; } /* '' */
+  .icon-youtube-squared:before { content: '\f166'; } /* '' */
+  .icon-youtube:before { content: '\f167'; } /* '' */
+  .icon-youtube-play:before { content: '\f16a'; } /* '' */
+  .icon-skype:before { content: '\f17e'; } /* '' */
+  .icon-moon:before { content: '\f186'; } /* '' */
+  .icon-mail-squared:before { content: '\f199'; } /* '' */
+  .icon-rebel:before { content: '\f1d0'; } /* '' */
+  .icon-slideshare:before { content: '\f1e7'; } /* '' */
+  .icon-twitch:before { content: '\f1e8'; } /* '' */
+  .icon-cart-plus:before { content: '\f217'; } /* '' */
+  .icon-whatsapp:before { content: '\f232'; } /* '' */
+  .icon-user-plus:before { content: '\f234'; } /* '' */
+  .icon-bluetooth-b:before { content: '\f294'; } /* '' */
+  .icon-gitlab:before { content: '\f296'; } /* '' */
+  .icon-snapchat-ghost:before { content: '\f2ac'; } /* '' */
+  .icon-envelope-open:before { content: '\f2b6'; } /* '' */
+  .icon-envelope-open-o:before { content: '\f2b7'; } /* '' */
+  .icon-user-circle:before { content: '\f2bd'; } /* '' */
+  .icon-user-circle-o:before { content: '\f2be'; } /* '' */
+  .icon-twitter-squared:before { content: '\f304'; } /* '' */
+  .icon-facebook-squared:before { content: '\f308'; } /* '' */
+  .icon-twitter-1:before { content: '\f309'; } /* '' */
+  .icon-facebook:before { content: '\f30c'; } /* '' */
+  .icon-facebook-squared-1:before { content: '\f30e'; } /* '' */
+  .icon-gplus:before { content: '\f30f'; } /* '' */
+  .icon-pinterest:before { content: '\f312'; } /* '' */
+  .icon-instagram:before { content: '\f31e'; } /* '' */
+  .icon-instagram-filled:before { content: '\f31f'; } /* '' */
+  .icon-instagram-1:before { content: '\f32d'; } /* '' */
+  .icon-skype-1:before { content: '\f339'; } /* '' */
+  .icon-skype-circled:before { content: '\f33a'; } /* '' */
+  .icon-paypal:before { content: '\f342'; } /* '' */
+  .icon-soundcloud:before { content: '\f348'; } /* '' */

@@ -1,0 +1,49 @@
+/* Menú-*/
+.categoria-pc{
+    width: 100%;
+    height: 1600px;
+}
+ .categotia-moba{
+    width: 100%;
+    height: 1100px;
+
+} 
+.pc{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pc .cuadrados{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 3458, 0.5);
+    margin: 20px;
+    text-align: center;
+}
+.pc .cuadrados:hover{
+    transform: translateY(-15px);
+    box-shadow: 12px 16px rgba(0, 0, 0, 0.2);
+}
+.pc .cuadrados img{
+    width: 330px;
+    height: 220px;
+}
+.pc .cuadrados h4{
+    font-size: 20px;
+    color: chocolate;
+}
+.pc .cuadrados p{
+    padding: 10px;
+    font-size: 16px;
+}
+.pc .cuadrados a{
+    text-decoration: none;
+    color: darksalmon;
+    font-size: 20px;
+}
+.pc .cuadrados a:hover{
+    color: darkorange;
+}

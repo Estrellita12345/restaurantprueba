@@ -1,0 +1,270 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box #434e9f;
+}
+
+body{
+    background-color: rgb(243, 255, 134);
+}
+/* Barra de titulo */
+header{
+    display: flex;
+    height: 120px;
+    background-color: #000;
+}
+.titulo{
+    height: 100px;
+    width: 50%;
+}
+.titulo h1{
+    text-align: left;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    line-height: 100px;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+}
+.portada h1{
+    text-align: center;
+    font-size: 35px;
+    color: #00FF00;
+    line-height: 80px;
+}
+/* Los enlaces */
+nav{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    line-height: 80px;
+    color: #fff;
+    border-left: 1px solid rgba(255,255,255,.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,.3);
+}
+header li a:first-child{
+    border-left: none;
+}
+
+header li a:hover{
+    background: rgba(0,0,0,.3) ;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: none;
+}
+section{
+    width: 80%;
+    display: block;
+    padding-top: 2%;
+    margin: auto;
+}
+@keyframes banner {
+   
+}
+main{
+    margin: auto;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+.contactos{
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+.infor{
+    background: url();
+    background-size: cover;
+    width: 40%;
+    flex-flow: column;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman';
+}
+
+.infor a{
+    text-decoration: none;
+    
+}
+/* Tamaño de icono de contactos */
+.infor h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.infor li{
+    list-style: none;
+    height: 40px;
+    
+}
+.infor li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.infor li span {
+    font-size: 30px;
+}
+form{
+    width: 60%;
+    margin-bottom: 4%;
+    padding: 6% 7%;
+    box-sizing: border-box;
+    border: 5px solid rgb(224, 71, 255);
+    border-left: none;
+    border-radius: 0px 50px 50px 0px;
+    margin-bottom: 50px;
+    
+    
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20pz;
+}
+
+#boton{
+    background: rgb(57, 217, 238);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align:10px ;
+}
+#boton:hover{
+    cursor: pointer;
+    background: #df8080
+}
+.texto{
+    background-color: DarkOliveGreen;
+    padding: 20px;
+
+}
+.texto p{
+    text-align: justify;
+    color: #fff;
+}
+main h1{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.modelos{
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+}
+.articulos{
+    width: 70%;
+
+}
+.articulos article{
+    display: flex;
+    padding: 15px;
+    margin-bottom: 2%;
+    background-color: gray;
+}
+.articulos article img{
+    width: 40%;
+}
+.articulos article p{
+    width: 70%;
+    text-align: justify;
+    padding: 15px;
+    color: #fff;
+}
+.social {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+    list-style: none;
+}
+/* Iconos de redes sociales */
+.social li a {
+    display: inline-block;
+    color: #fff;
+    background: rgb(255, 104, 247);
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social li .icon-facebook-official {
+    background: #3b5998;
+
+}
+.social li .icon-whatsapp {
+    background:  #25D366;
+}
+.social li .icon-instagram {
+    background: linear-gradient(
+                purple 5%,
+                orange 100%,
+                red 0%
+    );
+}
+.social li a:hover {
+    padding: 10px 30px;
+    background: rgb(88, 230, 240);
+}
+footer{
+    background-image: url(https://fondosmil.com/fondo/28077.jpg);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow:hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #1f2eff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+}
+.content-foo p{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin:24px 0 0 0;
+    color: #000000;
+    display: block;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    }
+    
+    
+

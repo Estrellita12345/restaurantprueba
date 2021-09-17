@@ -1,0 +1,88 @@
+/* Color de Fondo */
+body{
+    background-color: #cccccc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.contenedor{
+    padding: 60px 0;
+    height: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.titulo{ 
+    color: rgb(91, 102, 248);
+    font-size: 100px;
+    text-align: right;
+    margin-bottom: 60px;
+}
+/* Contenedor */
+.container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.imagen{
+    height: 500px;
+    width: 50%;
+    object-fit: cover;
+} 
+.textos{
+    color: #fff;
+    width: 50%;
+}
+.textos h1{
+    font-size: 80px;
+}
+.textos h2{
+    font-size: 40px;
+}
+.textos h5{
+    font-size: 80px;
+    color: darkmagenta;
+    text-align: center;
+
+}
+/* Nuestro producto */
+.contenedor-sobre-nosotros{
+    display: flex;
+}
+.imagen-contenedor{
+    width: 48%;
+    border-radius: 100px;
+    padding: 20px;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+
+
+}
+.contenido-textos h3 span{
+    background: rgb(75, 117, 255);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 4384, 0, 5); 
+    margin-right: 10px;
+
+}
+/*Estilo para los titulos */
+h5{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 2px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+

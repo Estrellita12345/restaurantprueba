@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000;
+}
+.imagen{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 200px
+}
+.titulo{
+       height: 100px;
+    width: 100%;
+}
+.titulo h1{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    line-height: 80px;
+}
+nav{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    line-height: 80px;
+    color: #fff;
+    border-left: 1px solid rgba(255,255,255,.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,.3);
+}
+section{
+    width: 80%;
+    display: block;
+    padding-top: 2%;
+    margin: auto;
+}
+section h1{
+    background: #000;
+    font-size: 70px;
+    padding: 2%;
+    font-family: lobster;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: normal;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px rgb(229, 36, 11);
+}
+.main{
+    margin: auto;
+    display: flex;
+    padding-top: 5%
+}
+.main p{
+    background: linear-gradient(  white 1%,  #17202A 100%);
+    width: 60%;
+    font-size: 20px;
+    padding: 5%;
+    line-height: 30px;
+    text-align: justify;
+    margin-right: 2%;
+    border-radius: 50px;
+}
+.main img{
+    width: 40%;
+    border: 5px solid #000;
+    border-radius: 50px;
+}
+.horario{
+    margin: auto;
+    margin-top: 5%;
+   
+}
+.horario h3{
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+ table {
+   width: 100%;
+   text-align: left;
+   border-collapse: collapse;
+   margin: 0 0 1em 0;
+   caption-side: top;
+}
+caption, td, th {
+   padding: 0.3em;
+    
+}
+
+td{
+    background: LightSkyBlue;
+}
+th, td {
+   border: 2px solid LightCyan;
+   text-align: center;
+    font-size: 20px;
+    
+}
+th:lastchild, td:lastchild {
+    border-right: 0;
+}
+th {
+   width: 25%;
+    background: DodgerBlue;
+    color: ;
+}
+.social {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+    list-style: none;
+}
+.social li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social li .icon-facebook-official {
+    background: #3b5998;
+}
+.social li .icon-instagram {
+    background: linear-gradient(
+                purple 5%,
+                orange 100%,
+                red 0%
+    );
+}
+
+.social li .icon-whatsapp {
+    background:  #25D366;
+}
+.social li .icon-pinterest {
+    background:  rgb(211, 37, 37);
+}
+
+.social li a:hover {
+    padding: 10px 30px;
+    background: #000;
+}
